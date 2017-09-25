@@ -1,0 +1,264 @@
+body {
+	background-color: #f6f6f6; }
+	body header .navbar {
+	  visibility: visible;
+	  background: #ffffff;
+	  box-shadow: 0 1px 2px #bbb;
+	  z-index: 9;
+	  width: 100%; }
+	  body header .navbar .icon1 {
+		border: 1px solid #8dbf41;
+		border-radius: 100%;
+		background-color: #8dbf41;
+		color: white;
+		font-size: 35px;
+		width: 60px;
+		height: 60px;
+		text-align: center;
+		line-height: 60px; }
+	  body header .navbar h1 {
+		float: right;
+		margin-top: 1%;
+		font-family: 'Raleway', sans-serif;
+		font-weight: 900; }
+	  body header .navbar .collapse {
+		float: right;
+		margin-top: 1%;
+		font-size: 20px; }
+		body header .navbar .collapse li {
+		  margin-left: 5%; }
+	body main .camera_container .carousel-inner h3 {
+	  font-size: 50px;
+	  font-weight: 400;
+	  color: #ffffff;
+	  font-family: 'Raleway', sans-serif;
+	  padding: 10px; }
+	body main .camera_container .carousel-inner p {
+	  font-size: 20px; }
+	body main .camera_container .carousel-inner a {
+	  margin-bottom: 10%;
+	  background-color: white;
+	  font-size: 25px;
+	  font-family: 'Raleway', sans-serif;
+	  color: grey;
+	  margin-top: 2%;
+	  padding: 16px; }
+	  body main .camera_container .carousel-inner a:hover {
+		color: #8dbf41;
+		transition: all 0.5s;
+		background-color: transparent;
+		border: 2px solid #8dbf41; }
+	body main .camera_container .carousel-control-prev-icon {
+	  position: absolute;
+	  left: 8%;
+	  bottom: 5%;
+	  color: white; }
+	body main .camera_container .carousel-control-next-icon {
+	  position: absolute;
+	  right: 8%;
+	  bottom: 5%;
+	  color: white; }
+	body main .well .row {
+	  margin-top: 10%;
+	  margin-bottom: 5%; }
+	  body main .well .row .col-md-6 .item2 {
+		margin-left: 5%; }
+		body main .well .row .col-md-6 .item2 h3 {
+		  color: #8dbf41;
+		  font-size: 60px;
+		  font-family: 'Raleway', sans-serif; }
+		body main .well .row .col-md-6 .item2 h4 {
+		  border: 1px solid #8dbf41;
+		  padding: 14px 18px;
+		  color: #8dbf41;
+		  font-family: 'Roboto', sans-serif;
+		  display: inline-block; }
+		body main .well .row .col-md-6 .item2 h6 {
+		  font-family: 'Roboto', sans-serif;
+		  margin-top: 8%;
+		  font-size: 20px;
+		  color: #757980; }
+		body main .well .row .col-md-6 .item2 .row {
+		  margin: 0px; }
+		  body main .well .row .col-md-6 .item2 .row .col-md-6 {
+			padding: 0px; }
+			body main .well .row .col-md-6 .item2 .row .col-md-6 h6 {
+			  font-family: 'Roboto', sans-serif;
+			  font-size: 18px;
+			  color: #292626; }
+			body main .well .row .col-md-6 .item2 .row .col-md-6 p {
+			  font-family: 'Roboto', sans-serif;
+			  color: #8d939b;
+			  font-size: 15px; }
+	body main .well2 {
+	  position: relative; }
+	  body main .well2 .parallax_image {
+		background-image: url(../img/parallax1.jpg);
+		min-height: 600px;
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover; }
+	  body main .well2 .parallax_container {
+		position: absolute;
+		top: 16%;
+		left: 15%; }
+		body main .well2 .parallax_container h3 {
+		  text-align: center;
+		  color: white;
+		  font-size: 40px;
+		  font-family: 'Raleway', sans-serif;
+		  margin-bottom: 5%; }
+		body main .well2 .parallax_container .block-icon {
+		  margin: 5px;
+		  position: relative; }
+		  body main .well2 .parallax_container .block-icon .icon {
+			position: absolute;
+			color: #8dbf41;
+			top: -19%;
+			left: -15%;
+			font-size: 33px; }
+		  body main .well2 .parallax_container .block-icon a {
+			color: white;
+			text-decoration: none; }
+			body main .well2 .parallax_container .block-icon a:hover {
+			  color: #8dbf41;
+			  transition: all 0.5s; }
+		  body main .well2 .parallax_container .block-icon p {
+			color: #A59595; }
+		body main .well2 .parallax_container .btn {
+		  margin-left: 38%;
+		  margin-top: 2%;
+		  text-align: center;
+		  padding: 20px;
+		  min-width: 205px;
+		  color: #ffffff;
+		  background-color: transparent;
+		  border-color: #8d939b;
+		  font-weight: 400;
+		  cursor: pointer;
+		  font-size: 20px; }
+		  body main .well2 .parallax_container .btn:hover {
+			background-color: #8dbf41;
+			transition: all 1s; }
+	body main .well3 {
+	  background-color: #8dbf41;
+	  height: 250px; }
+	  body main .well3 .item {
+		padding: 60px; }
+		body main .well3 .item h2 {
+		  color: white;
+		  text-align: center;
+		  font-size: 45px;
+		  padding: 10px;
+		  font-family: 'Raleway', sans-serif; }
+		body main .well3 .item p {
+		  color: white;
+		  text-align: center;
+		  font-size: 22px;
+		  font-family: 'Raleway', sans-serif; }
+	body main .well4 {
+	  padding-bottom: 100px;
+	  padding-top: 100px; }
+	  body main .well4 h3 {
+		text-align: center;
+		font-weight: 500;
+		font-size: 40px;
+		font-family: 'Raleway', sans-serif;
+		margin-bottom: 5%;
+		color: #414851; }
+	  body main .well4 .row .col-md-3 .thumb-links {
+		display: block;
+		position: relative;
+		z-index: 2;
+		text-align: center;
+		cursor: pointer;
+		border-radius: 50%; }
+		body main .well4 .row .col-md-3 .thumb-links img {
+		  width: 100%;
+		  height: auto;
+		  transition: 0.5s all ease;
+		  border-radius: 50%; }
+		body main .well4 .row .col-md-3 .thumb-links .over_layer {
+		  position: absolute;
+		  left: 0;
+		  top: 0;
+		  right: 0;
+		  bottom: 0;
+		  opacity: 0;
+		  transition: 0.3s all ease;
+		  color: #ffffff;
+		  background: transparent;
+		  border-radius: 50%; }
+		  body main .well4 .row .col-md-3 .thumb-links .over_layer ._overlay {
+			display: inline-block;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			opacity: 0; 
+			justify-content: space-between;
+		}
+			body main .well4 .row .col-md-3 .thumb-links .over_layer ._overlay li {
+			  color: #ffffff;
+			  display: inline-block;
+			  font-size: 18px; }
+			  body main .well4 .row .col-md-3 .thumb-links .over_layer ._overlay li a {
+				color: #ffffff;
+				text-decoration: none; }
+				body main .well4 .row .col-md-3 .thumb-links .over_layer ._overlay li a:hover {
+				  color: green; }
+		body main .well4 .row .col-md-3 .thumb-links:hover .over_layer {
+		  opacity: 1;
+		  background: rgba(65, 72, 81, 0.5); }
+		body main .well4 .row .col-md-3 .thumb-links:hover ._overlay {
+		  opacity: 1; }
+	  body main .well4 .row .col-md-3 h4 {
+		text-align: center;
+		margin-top: 10%;
+		font-size: 30px;
+		color: #707479;
+		font-weight: 400;
+		cursor: pointer; }
+		body main .well4 .row .col-md-3 h4:hover {
+		  color: #8dbf41; }
+	  body main .well4 .row .col-md-3 .button_p {
+		color: #8dbf41;
+		font-size: 17px;
+		border: 1px solid #8dbf41;
+		padding: 5px;
+		text-align: center; }
+	  body main .well4 .row .col-md-3 p {
+		text-align: center;
+		margin-top: 20px;
+		color: #a3a6ab;
+		font-size: 15px; }
+  
+  @media only screen and (max-width: 576px) {
+	.navbar {
+	  height: 60px; }
+	  .navbar .icon1 {
+		display: none; }
+	  .navbar .navbar-brand2 {
+		display: block; }
+		.navbar .navbar-brand2 .icon2 {
+		  display: block; }
+	  .navbar h1 {
+		font-size: 25px; }
+  
+	.well .col-md-6 .item2 h3 {
+	  font-size: 15px; }
+	.well .col-md-6 .item2 h4 {
+	  font-size: 10px;
+	  margin-left: 25%; }
+  
+	.well3 .item {
+	  padding: 0px; } }
+  @media only screen and (max-width: 768px) {
+	.well2 .parallax_image {
+	  height: 850px; }
+	.well2 .parallax_container {
+	  margin-top: -60px; }
+  
+	.well3 {
+	  height: 150px; } }
